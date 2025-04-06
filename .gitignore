@@ -1,0 +1,99 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Trash folder
+.Trashes
+*.swp
+*.lock
+*.tmp
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcuserdatad
+*.xcscmblueprint
+
+# Swift Package Manager
+/.build/
+/Packages/
+/.swiftpm/
+Package.resolved
+
+# CocoaPods
+/Pods/
+
+# Carthage
+/Carthage/
+
+# SwiftPM Artifacts
+Artifacts.xcarchive
+
+# Archives
+*.xcarchive
+
+# iOS Simulator
+*.simruntime
+*.simdevice
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/tmp
+
+# Firebase/Supabase
+/GoogleService-Info.plist
+.env
+
+# SQL
+/*.sql
+/*.sqlite
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# User-specific Xcode files
+*.xcuserstate
+
+# IDEs
+.idea/
+*.iml
+
+# SwiftLint/Formatter logs
+.swiftlint.yml
+.swiftformat
+.swiftpm/xcode/package.xcworkspace
+
+# Misc
+*.orig
+*.log
+
+# Supabase
+.supabase/
+supabase/.temp/
+supabase/migrations/dev.db
+
+# if using dotenv
+.env.local
+.env.*
+
+# VSCode
+.vscode/
+
+# Xcode Preview
+*.preview-thumbnails
+
+# URLSession shared cache
+Cache.db
+
+# Firebase Emulator artifacts (optional)
+firebase-debug.log
+
